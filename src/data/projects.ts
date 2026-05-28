@@ -13,22 +13,14 @@ export const projects: Project[] = [
     name: "Jubelio POS",
     description:
       "Point of Sale application featuring real-time socket integration, optimized backend endpoints with 70% latency reduction, and robust observability (logging, metrics, tracing).",
-    stack: ["React", "Fastify", "PostgreSQL", "Socket.io", "CI/CD", "Redis"],
+    stack: ["React", "Fastify", "PostgreSQL", "Socket.io", "Redis"],
     status: "completed",
   },
   {
     name: "Jubelio Store",
     description:
       "E-commerce storefront system built with server-side frameworks, featuring highly efficient backend services that successfully decreased endpoint latency by 63%.",
-    stack: [
-      "Next.js",
-      "Fastify",
-      "Go",
-      "PostgreSQL",
-      "Redis",
-      "MongoDB",
-      "CI/CD",
-    ],
+    stack: ["Next.js", "Fastify", "Go", "PostgreSQL", "Redis", "MongoDB"],
     status: "completed",
   },
   {
@@ -49,29 +41,22 @@ export const projects: Project[] = [
   {
     name: "Jubelio Omnichannel",
     description:
-      "Centralized omnichannel retail management platform utilizing automated CI/CD pipelines to ensure code quality and seamless deployment.",
-    stack: ["React", "Fastify", "PostgreSQL", "CI/CD"],
+      "Centralized omnichannel retail management platform utilizing automated CI/CD pipelines to ensure code quality and seamless deploymentMaintaining and scaling a centralized omnichannel retail management platform, consistently delivering high-impact features to enhance product capabilities.",
+    stack: ["React", "Fastify", "PostgreSQL"],
     status: "completed",
   },
   {
     name: "LRT Sumatera Selatan Gate Application",
     description:
       "Transit e-ticketing and hardware-integrated gate payment system featuring real-time monitoring and automated data routing.",
-    stack: [
-      "C#",
-      ".NET Framework",
-      "WinForms",
-      "Node.js",
-      "PostgreSQL",
-      "CI/CD",
-    ],
+    stack: ["C#", ".NET Framework", "WinForms", "Node.js", "PostgreSQL"],
     status: "completed",
   },
   {
     name: "ASDP Indonesia Ferry Gate & POS Application",
     description:
       "Maritime transport ticketing system integrated with physical gate hardware and sales terminals for secure passenger processing.",
-    stack: ["C#", ".NET Framework", "WinForms", "WPF", "CI/CD"],
+    stack: ["C#", ".NET Framework", "WinForms", "WPF"],
     status: "completed",
   },
   {
@@ -85,7 +70,7 @@ export const projects: Project[] = [
     name: "Classification Model for Student Response to Lecture Topics Using the BERT Algorithm and Natural Language Processing (NLP)",
     description:
       "NLP-based system that analyzes and matches student answers against lecture syllabus topics using a fine-tuned BERT language model.",
-    stack: ["React", "Flask", "Python", "BERT", "LLM"],
+    stack: ["React", "Flask", "Python", "BERT", "LLM", "CI/CD"],
     status: "completed",
   },
 ];
