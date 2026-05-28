@@ -46,8 +46,8 @@ export const work: WorkEntry[] = [
     ],
   },
   {
-    company: "Service Engineer",
-    role: "Software Engineer",
+    company: "Hartech Indonesia",
+    role: "Service Engineer",
     startDate: "Nov 2021",
     endDate: "Jan 2022",
     location: "Jakarta · Onsite",

@@ -13,21 +13,37 @@ export const projects: Project[] = [
     name: "Jubelio POS",
     description:
       "Point of Sale application featuring real-time socket integration, optimized backend endpoints with 70% latency reduction, and robust observability (logging, metrics, tracing).",
-    stack: ["React", "Fastify", "PostgreSQL", "Socket.io", "CI/CD"],
+    stack: ["React", "Fastify", "PostgreSQL", "Socket.io", "CI/CD", "Redis"],
     status: "completed",
   },
   {
     name: "Jubelio Store",
     description:
       "E-commerce storefront system built with server-side frameworks, featuring highly efficient backend services that successfully decreased endpoint latency by 63%.",
-    stack: ["Next.js", "Fastify", "Go", "PostgreSQL"],
+    stack: [
+      "Next.js",
+      "Fastify",
+      "Go",
+      "PostgreSQL",
+      "Redis",
+      "MongoDB",
+      "CI/CD",
+    ],
     status: "completed",
   },
   {
     name: "Jubelio Loyalty",
     description:
       "Loyalty and rewards management module integrated across Jubelio POS and Store ecosystems with high-performance API services.",
-    stack: ["Vite", "Go", "PostgreSQL"],
+    stack: [
+      "Vite",
+      "Go",
+      "PostgreSQL",
+      "Microservices",
+      "Redis",
+      "MongoDB",
+      "Apache Kafka",
+    ],
     status: "completed",
   },
   {
@@ -62,7 +78,7 @@ export const projects: Project[] = [
     name: "Implementation RFID and Barcode Scanner in Book Lending System in Libraries Integrated with Android",
     description:
       "Academic library management system featuring desktop-to-web synchronization and physical RFID hardware integration.",
-    stack: ["Android", "Python", "Tkinter", "RFID"],
+    stack: ["Android", "Python", "Tkinter", "RFID", "Laravel"],
     status: "completed",
   },
   {
